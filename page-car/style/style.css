@@ -1,3 +1,64 @@
 @charset "UTF-8";
 
-:root{}
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*font-family: 'Arvo', serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Prompt', sans-serif;*/
+
+:root{
+--cor01: #FFC801;
+--cor02: #FFCD19;
+--cor03: #B38C00;
+--cor04: #0010B3;
+--cor05: #0017FF;
+
+}
+
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px;
+    background-color: #a9a9a9;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#title{
+    font-family: 'Arvo', serif;
+    color: #0010B3;
+    flex-direction: column;
+    line-height: 8px;
+}
+
+h1{
+    font-weight: 400;
+}
+
+li{
+    display: inline-block;
+    margin: 18px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+h2{
+    font-size: 3em;
+    line-height: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    
+}
+
+.span{
+    color: var(--cor01);
+}
