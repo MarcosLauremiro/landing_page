@@ -30,6 +30,28 @@ header{
     align-items: center;
 
 }
+
+a:hover{
+    color: #FFC801;
+    transition: 0.3s;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--cor04);
+    font-size: 1.2em;
+}
+#destaque{
+    border: 2px solid #FFC801;
+    padding: 7px;
+    border-radius: 12px;
+}
+#destaque:hover{
+    background-color: #FFC801;
+    color: #0010B3;
+    transition: 0.3s;
+
+}
 #title{
     font-family: 'Arvo', serif;
     color: #0010B3;
@@ -39,6 +61,10 @@ header{
 
 h1{
     font-weight: 400;
+}
+
+ul{
+    margin-right: 30px;
 }
 
 li{
@@ -61,4 +87,43 @@ h2{
 
 .span{
     color: var(--cor01);
+}
+p{
+    line-height: 18px;
+    max-width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(27, 27, 27);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #FFCD19;
+    color: #0010B3;
+    border: none;
+    font-size: 18px;
+}
+form [type= "submit"]{
+    background-color: #0010B3;
+    color: #FFCD19;
+    text-align: center;
+    height: 50px;
+    font-weight: bold;
+}
+form [type= "submit"]:hover{
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+}
+@media(max-width:700px) {
+    img{display: none;}
 }
