@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #0D0D0D;
+    --cor02: #F2EBDC;
+    --cor03: #048ABF;
+    --cor04: #272F59;
+    --cor05: #20308C;
+    
+}
+
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+/*font-family: 'Reem Kufi Ink', sans-serif;*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #272F59;
+}
+
+header{
+    background-color: #F2EBDC;
+    max-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+#logo{
+    font-size: 2em;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    line-height: 1.4em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+
+a:hover{
+    color: #048ABF;
+    transform: .3s;
+}
+
+li{
+    display: inline-block;
+    margin: 1em;
+}
+
+ul{
+    margin-right: 30px;
+
+}
+main{
+    background-color: #272F59;
+    display: flex;
+}
+main img{
+    max-width: 70vw;
+    display: block;
+    position: absolute;
+    left: 33vh;
+    margin-top: 30px;
+}
+
