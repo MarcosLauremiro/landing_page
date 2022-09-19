@@ -65,8 +65,8 @@ main{
 }
 
 section {
-    display: block;
     flex-direction: column;
+    
 }
 
 main img{
@@ -77,15 +77,3 @@ main img{
     margin-top: 30px;
 }
 
-.amostra {
-    display: block;
-    max-width: 20vw;
-    flex-direction: column;
-}
-
-#amostras{
-    display: block;
-    position: absolute;
-    top: 105vh;
-    left: 30px;
-}
